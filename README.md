@@ -18,6 +18,7 @@ How to Run
 1. Ensure you have [ComfyUI](https://github.com/comfyanonymous/ComfyUI) installed.
 2. Clone this repository.
 3. Ensure you have all model and extension dependencies. 
-4. Drag and drop the `convert.json` file into ComfyUI.
+4. Drag and drop the `Converter.json` file into ComfyUI.
 
 Any feedback regarding the topic is appreciated.
+This project is currently unfinished.
