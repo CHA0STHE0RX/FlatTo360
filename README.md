@@ -11,7 +11,7 @@ The idea is :
 2. Run keyframes through the ComfyUI program and place the created frames in frames_360out.  
 3. Stich the the video together using end.bat and work from there.  
 
-I've attempted using Seamless Tiling to fix visual inconsistencies to no awail;  
+I've attempted using Seamless Tiling to fix visual inconsistencies to no avail;  
 I am yet to try IPAdapter with differential diffusion. I suspect there might be an issue with 'sanbaro_V2.safetensors' or JuggernautXL's model outputs in terms of quality.
 
 How to Run
