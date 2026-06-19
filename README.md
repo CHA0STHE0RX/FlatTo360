@@ -5,7 +5,7 @@ The goal of this project was creating VR footage from a flat video source using 
 <img width="1242" height="842" alt="Current State" src="https://github.com/user-attachments/assets/1ec78d6c-f97f-46af-b73b-7c94710edcce" />  
 <br/>
 ## Current state
-Although the program runs and creates 360 ready footage there are several temporal anomalies and visual incosistencies. 
+Although the program runs and creates 360 ready footage there are several temporal anomalies and visual inconsistencies. 
 The idea is :  
 1. Extract the original frames with : <br/> `ffmpeg -i input.mp4 -vsync 0 frames\%%06d.png` into 'frames', create a blurred guide (pad and mask them into a 2:1 equirectangular) and extract keyframes(alternatively use 'select every nth' in the Load Images(Batch) node).  (Look:start.bat)  
 2. Run keyframes through the ComfyUI program and place the created frames in frames_360out.  
